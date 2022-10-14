@@ -8,6 +8,10 @@ function App() {
 		e.preventDefault();
 	};
 
+	function enterLetter(onClick) {
+		document;
+	}
+
 	return (
 		<div className='App'>
 			<div className='title'>WORDLE</div>
@@ -143,7 +147,7 @@ function App() {
 						M
 					</button>
 					<button className='keys' id='backspaceKey' onClick={enterLetter}>
-						🔙'⬅️↩️◀️
+						🔙
 					</button>
 				</div>
 			</div>
